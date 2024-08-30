@@ -1,10 +1,10 @@
 package com.github.fourmisain.axesareweapons;
 
-import net.minecraft.util.Identifier;
-import me.shedaniel.autoconfig.AutoConfig;
 import com.github.fourmisain.axesareweapons.config.AxesAreWeaponsConfig;
 import com.github.fourmisain.axesareweapons.config.IdentifierGuiProvider;
 import com.github.fourmisain.axesareweapons.config.StringSetGuiProvider;
+import me.shedaniel.autoconfig.AutoConfig;
+import net.minecraft.util.Identifier;
 
 public class AxesAreWeaponsClient {
 

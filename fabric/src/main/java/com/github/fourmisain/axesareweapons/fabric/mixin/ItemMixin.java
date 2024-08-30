@@ -8,7 +8,7 @@ import net.minecraft.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 
-import static com.github.fourmisain.axesareweapons.AxesAreWeapons.isSpeedyWeb;
+import static com.github.fourmisain.axesareweapons.AxesAreWeaponsCommon.isSpeedyWeb;
 
 @Mixin(Item.class)
 public abstract class ItemMixin {

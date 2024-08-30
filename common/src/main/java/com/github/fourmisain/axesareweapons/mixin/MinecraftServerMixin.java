@@ -1,8 +1,8 @@
 package com.github.fourmisain.axesareweapons.mixin;
 
+import com.github.fourmisain.axesareweapons.AxesAreWeaponsCommon;
 import net.minecraft.registry.DynamicRegistryManager;
 import net.minecraft.server.MinecraftServer;
-import com.github.fourmisain.axesareweapons.AxesAreWeapons;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -17,11 +17,11 @@ public abstract class MinecraftServerMixin {
 
   @Inject(method = "runServer", at = @At("HEAD"))
   private void setRegistryManager(CallbackInfo ci) {
-    AxesAreWeapons.serverRegistryManager = getRegistryManager();
+    AxesAreWeaponsCommon.serverRegistryManager = getRegistryManager();
   }
 
   @Inject(method = "runServer", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/MinecraftServer;exit()V"))
   private void unsetRegistryManager(CallbackInfo ci) {
-    AxesAreWeapons.serverRegistryManager = null;
+    AxesAreWeaponsCommon.serverRegistryManager = null;
   }
 }

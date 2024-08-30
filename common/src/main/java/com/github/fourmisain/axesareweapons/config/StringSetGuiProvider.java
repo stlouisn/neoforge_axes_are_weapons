@@ -1,12 +1,5 @@
 package com.github.fourmisain.axesareweapons.config;
 
-import net.minecraft.text.Text;
-import me.shedaniel.autoconfig.annotation.ConfigEntry;
-import me.shedaniel.autoconfig.gui.registry.api.GuiProvider;
-import me.shedaniel.autoconfig.gui.registry.api.GuiRegistryAccess;
-import me.shedaniel.autoconfig.util.Utils;
-import me.shedaniel.clothconfig2.api.AbstractConfigListEntry;
-import me.shedaniel.clothconfig2.api.ConfigEntryBuilder;
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -15,6 +8,13 @@ import java.util.List;
 import java.util.Set;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import me.shedaniel.autoconfig.annotation.ConfigEntry;
+import me.shedaniel.autoconfig.gui.registry.api.GuiProvider;
+import me.shedaniel.autoconfig.gui.registry.api.GuiRegistryAccess;
+import me.shedaniel.autoconfig.util.Utils;
+import me.shedaniel.clothconfig2.api.AbstractConfigListEntry;
+import me.shedaniel.clothconfig2.api.ConfigEntryBuilder;
+import net.minecraft.text.Text;
 
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.Collectors.toSet;
