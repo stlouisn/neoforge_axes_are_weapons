@@ -4,9 +4,11 @@ import static com.github.fourmisain.axesareweapons.AxesAreWeaponsCommon.isSpeedy
 
 import net.minecraft.item.Item;
 import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.neoforge.event.entity.player.PlayerEvent;
 
-public class CobWebEventHandler {
+@EventBusSubscriber
+public class CobWebEvent {
 
   @SubscribeEvent
   public static void harvestCheck(PlayerEvent.HarvestCheck event) {

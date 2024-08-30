@@ -3,7 +3,7 @@ package com.github.fourmisain.axesareweapons.neoforge;
 import com.github.fourmisain.axesareweapons.AxesAreWeaponsClient;
 import com.github.fourmisain.axesareweapons.AxesAreWeaponsCommon;
 import com.github.fourmisain.axesareweapons.config.AxesAreWeaponsConfig;
-import com.github.fourmisain.axesareweapons.neoforge.events.CobWebEventHandler;
+import com.github.fourmisain.axesareweapons.neoforge.events.CobWebEvent;
 import me.shedaniel.autoconfig.AutoConfig;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
@@ -26,6 +26,6 @@ public final class AxesAreWeapons {
   }
 
   private void loadComplete(final FMLLoadCompleteEvent event) {
-    NeoForge.EVENT_BUS.register(CobWebEventHandler.class);
+    NeoForge.EVENT_BUS.register(CobWebEvent.class);
   }
 }
