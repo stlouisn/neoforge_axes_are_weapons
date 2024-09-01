@@ -28,7 +28,10 @@ configurations {
 }
 
 repositories {
+
+  // NeoForge
   maven { url = "https://maven.neoforged.net/releases/" }
+
 }
 
 dependencies {
