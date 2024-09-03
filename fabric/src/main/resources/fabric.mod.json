@@ -39,6 +39,7 @@
   "custom": {
     "modmenu": {
       "links": {
+        "modmenu.modrinth": "${url_modrinth}",
         "modmenu.discord": "${url_discord}"
       }
     }
