@@ -31,7 +31,8 @@ configurations {
 
 repositories {
 
-  // Cloth Config API, Mod Menu
+  // Cloth Config API
+  // Mod Menu
   maven { url = "https://maven.terraformersmc.com/" }
 
 }
