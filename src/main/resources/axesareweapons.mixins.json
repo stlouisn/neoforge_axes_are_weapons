@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "dev.axesareweapons.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8.5",
+  "client": [
+    "ClientPlayNetworkHandlerMixin"
+  ],
+  "mixins": [
+    "MinecraftServerMixin",
+    "MiningToolItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
