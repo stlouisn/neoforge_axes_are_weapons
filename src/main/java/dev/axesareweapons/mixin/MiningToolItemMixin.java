@@ -1,6 +1,6 @@
 package dev.axesareweapons.mixin;
 
-import static dev.axesareweapons.AxesAreWeapons.isAxe;
+import static dev.axesareweapons.utils.ModFunctions.isAxe;
 
 import com.llamalad7.mixinextras.injector.ModifyExpressionValue;
 import net.minecraft.item.MiningToolItem;
