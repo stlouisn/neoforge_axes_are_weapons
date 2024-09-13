@@ -1,6 +1,6 @@
 package dev.axesareweapons;
 
-import dev.axesareweapons.util.ModConstants;
+import dev.axesareweapons.utils.ModConstants;
 import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
